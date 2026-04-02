@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Standard.Project name="Polarion_Test" author="1632212" creation-date="2025-08-25T11:31:50" modification-date="2025-09-24T14:43:10" schema-version="2.3.0">
+	<library-description>Represents a project.</library-description>
+	<subsystems>
+		<Standard.Folder name="TESTCASE" author="1632212" creation-date="2025-08-25T11:43:17" modification-date="2025-09-24T14:44:34">
+			<library-description>Represents the folder of a specific project.</library-description>
+			<results>
+				<Standard.Result name="Result" author="RMutegeki" creation-date="2025-09-24T14:43:27" modification-date="2025-09-24T14:43:43" verdict="Failed" result-dir="Result.2025-09-24T14-43-27-081">
+					<description>A tutorial  is required before the first run.</description>
+					<reports>
+						<Standard.PDFReport name="Report" author="RMutegeki" creation-date="2025-09-24T14:43:28" modification-date="2025-09-24T14:43:28" report-dir="Report.2025-09-24T14-43-27-081"></Standard.PDFReport>
+					</reports>
+				</Standard.Result>
+			</results>
+			<subsystems>
+				<Standard.Folder name="Function" author="1632212" creation-date="2025-08-25T11:31:56" modification-date="2025-09-24T14:45:01">
+					<library-description>Represents the folder of a specific project.</library-description>
+					<subsystems>
+						<blkx-reference type="FrameworkBuilder.SequenceFrame" name="DP-331" id="{EE3D9DD7-0C4F-4D12-ABAF-5EC1A7EBA695}" href="Polarion_Test@adpx\DP-331.EE3D9DD7-0C4F-4D12-ABAF-5EC1A7EBA695.blkx"></blkx-reference>
+						<blkx-reference type="FrameworkBuilder.SequenceFrame" name="DP-345" id="{67C394E6-5211-4300-8E74-FEF814725592}" href="Polarion_Test@adpx\DP-345.67C394E6-5211-4300-8E74-FEF814725592.blkx"></blkx-reference>
+						<blkx-reference type="FrameworkBuilder.SequenceFrame" name="DP-332" id="{286C8D78-6215-4CAE-84EF-143A4A68ECCF}" href="Polarion_Test@adpx\DP-332.286C8D78-6215-4CAE-84EF-143A4A68ECCF.blkx"></blkx-reference>
+						<blkx-reference type="FrameworkBuilder.SequenceFrame" name="DP-472" id="{65F30DBA-B3E6-4C8F-8AD4-F17DE4F88C15}" href="Polarion_Test@adpx\DP-472.65F30DBA-B3E6-4C8F-8AD4-F17DE4F88C15.blkx"></blkx-reference>
+						<blkx-reference type="FrameworkBuilder.SequenceFrame" name="DP-292" id="{0154DC2E-F6B6-4D28-8333-7D64250AF436}" href="Polarion_Test@adpx\DP-292.0154DC2E-F6B6-4D28-8333-7D64250AF436.blkx"></blkx-reference>
+						<blkx-reference type="FrameworkBuilder.SequenceFrame" name="DP-224" id="{19E4D33D-0253-427C-99D6-45BB513F12F7}" href="Polarion_Test@adpx\DP-224.19E4D33D-0253-427C-99D6-45BB513F12F7.blkx"></blkx-reference>
+					</subsystems>
+				</Standard.Folder>
+				<Standard.Folder name="FailSafe" author="1632212" creation-date="2025-08-25T11:32:04" modification-date="2025-08-25T11:43:27">
+					<library-description>Represents the folder of a specific project.</library-description>
+					<subsystems>
+						<Standard.Folder name="CANTimeOut" author="1632212" creation-date="2025-08-25T11:38:22" modification-date="2025-09-23T00:50:48">
+							<library-description>Represents the folder of a specific project.</library-description>
+							<subsystems>
+								<blkx-reference type="FrameworkBuilder.SequenceFrame" name="DP-317" id="{FBBC071D-B842-4517-BF22-92572997BDAE}" href="Polarion_Test@adpx\DP-317.FBBC071D-B842-4517-BF22-92572997BDAE.blkx"></blkx-reference>
+								<blkx-reference type="FrameworkBuilder.SequenceFrame" name="DP-316" id="{193DA5C0-3A49-4934-AD5C-F260CDBE3209}" href="Polarion_Test@adpx\DP-316.193DA5C0-3A49-4934-AD5C-F260CDBE3209.blkx"></blkx-reference>
+							</subsystems>
+						</Standard.Folder>
+					</subsystems>
+				</Standard.Folder>
+			</subsystems>
+		</Standard.Folder>
+	</subsystems>
+</Standard.Project>
